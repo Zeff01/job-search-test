@@ -20,37 +20,37 @@ This project demonstrates how to set up Elasticsearch with Docker, populate it w
    ```
 
 docker-compose up -d
+
 Populate Elasticsearch with Sample Data
 Install dependencies:
 
+```bash
 npm install
-Run the script to populate data:
+```
 
+Run the script to populate data:
+```bash
 node populate_es.js
+```
+
 Run the React Application
 Navigate to the React application directory:
 
+```bash
 cd job-search-app
+```
+
 Install React dependencies:
-
+```bash
 npm install
-Start the React application:
+```
 
+Start the React application:
+```bash
 npm start
+```
+
 Your job search application should now be running locally at http://localhost:3000, connected to your Elasticsearch instance.
 
-Summary of Steps
-Start Elasticsearch:
-
-docker-compose up -d
-Populate Elasticsearch with data:
-
-npm install
-node populate_es.js
-Run the React application:
-
-cd job-search-app
-npm install
-npm start
 
 That's it! You should now have a fully functional job search application running locally.
