@@ -35,6 +35,7 @@ node populate_es.js
 ```
 
 Run the React Application
+
 Navigate to the React application directory:
 
 ```bash
