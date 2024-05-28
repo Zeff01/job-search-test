@@ -22,6 +22,7 @@ This project demonstrates how to set up Elasticsearch with Docker, populate it w
 docker-compose up -d
 
 Populate Elasticsearch with Sample Data
+
 Install dependencies:
 
 ```bash
