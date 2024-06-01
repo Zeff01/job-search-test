@@ -10,7 +10,7 @@ services:
       - http.cors.allow-origin=http://localhost:3000
       - http.cors.allow-headers=X-Requested-With,Content-Type,Content-Length,Authorization
       - http.cors.allow-credentials=true
-      - http.max_header_size=32kb # Add this line
+      - http.max_header_size=32kb
     ports:
       - 9200:9200
       - 9300:9300
